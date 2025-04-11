@@ -1,0 +1,54 @@
+body{
+    height: 100vh;
+    background: url('/images/pexels-fotios-photos-1172019\ \(1\).jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 90px;
+    color: white;
+}
+
+.central{
+    width: 500px;
+    background: rgba(255, 255, 255, 0.582);
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    box-shadow: 3px 3px 18px black;
+}
+
+.central input{
+    width: 400px;
+    height: 30px;
+    border-radius: 6%;
+    border: 2px solid hotpink ;
+}
+
+.central button{
+    width: 120;
+    height: 30px;
+    background: pink;
+    border: 2px solid hotpink;
+    cursor: pointer;
+}
+
+.central p{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: hotpink;
+    font-weight: bold;
+
+}
